@@ -1,0 +1,117 @@
+/* Style Sheet
+
+    Colors: 
+        #F8B313
+        #FDF2F0
+
+*/
+/* 0 Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+
+body{
+    background: url(https://images.pexels.com/photos/5466785/pexels-photo-5466785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+}  
+.box{
+    height: 300px;
+    width: 410px;
+    background: #9b9b;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 50px 30px;
+    opacity: 0.9;
+    
+}  
+.box h1{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.box label{
+    display: block;
+    font-weight: bold;
+}
+
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: green;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+
+.box input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+    height: 40px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pie{
+    font-weight: bold;
+}
